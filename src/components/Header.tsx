@@ -16,7 +16,7 @@ export default function Header({
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-lg font-medium">Le Minh Triet</div>
+        <div className="text-lg font-medium">TL</div>
         <button
           onClick={toggleDarkMode}
           className={`p-2.5 rounded-xl transition-all duration-200 ${

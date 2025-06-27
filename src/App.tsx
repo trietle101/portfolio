@@ -8,7 +8,8 @@ import {
   Palette,
   Zap
 } from "lucide-react";
-import Header from "./components/Header";
+// import Header from "./components/Header";
+import ThemeButton from "./components/ThemeButton";
 import HeroTest from "./components/HeroTest";
 import "./App.css";
 
@@ -201,7 +202,8 @@ const App = () => {
       }`}
     >
       {/* Header */}
-      <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      {/* <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} /> */}
+      <ThemeButton darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       {/* Hero Section */}
       <HeroTest darkMode={darkMode} />
       {/* Experience Section */}

@@ -31,7 +31,7 @@ export default function HeroTest({ darkMode }: { darkMode: boolean }) {
           {/* Hero Header Like Adrian’s */}
           <div className="text-white  space-y-3">
             <h1
-              className={`text-6xl md:text-8xl font-mono font-semibold leading-none tracking-tight ${
+              className={`text-6xl md:text-8xl font-serif font-semibold leading-none tracking-tight ${
                 darkMode ? "text-amber-200" : "text-gray-700"
               }`}
             >
@@ -39,7 +39,7 @@ export default function HeroTest({ darkMode }: { darkMode: boolean }) {
               <span className="block">i’m</span>
               <span className="block">Triet.</span>
             </h1>
-            <p className="text-xl max-w-2xl pt-4 text-gray-400">
+            <p className="text-xl max-w-2xl pt-4 text-gray-500">
               A software engineer from Vietnam. Have experience using Next.js,
               React.js, Typescript, TailwindCSS and more. Looking for new and
               exciting projects in the software space. Let's connect!
