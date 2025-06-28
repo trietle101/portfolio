@@ -1,18 +1,5 @@
 import { useEffect, useState } from "react";
-
-const greetings = [
-  "hi",
-  "xin chào",
-  "bonjour",
-  "你好",
-  "привет",
-  "hola",
-  "hallo",
-  "ciao",
-  "こんにちは",
-  "안녕하세요",
-  "สวัสดี"
-];
+import { greetings } from "../content"; // Adjust the import path as necessary
 
 export default function HeroTest({ darkMode }: { darkMode: boolean }) {
   const [greetingIndex, setGreetingIndex] = useState(0);
@@ -31,7 +18,7 @@ export default function HeroTest({ darkMode }: { darkMode: boolean }) {
           {/* Hero Header Like Adrian’s */}
           <div className="text-white  space-y-3">
             <h1
-              className={`text-6xl md:text-8xl font-serif font-semibold leading-none tracking-tight ${
+              className={`text-6xl md:text-7xl font-serif font-semibold leading-none tracking-tight ${
                 darkMode ? "text-amber-200" : "text-gray-700"
               }`}
             >
